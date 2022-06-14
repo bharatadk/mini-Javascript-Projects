@@ -3,7 +3,7 @@ const endDate = "16 June 2022 10:00:00 PM"
 document.querySelector(".end-date").innerText = endDate;
 const values = document.querySelectorAll("input");
 
-function clock(){
+const clock=()=>{
 	const end = new Date(endDate)
 	const now = new Date()
 	const diff = (end - now)/1000;//in seconds
