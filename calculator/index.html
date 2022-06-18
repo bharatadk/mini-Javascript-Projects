@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link rel="stylesheet" href = "css/style.css">
+</head>
+<body>
+<div class ="main">
+
+<div class= 'calculator-grid'>
+	<div class= 'output-screen'>
+		<div data-previous_operand class= 'previous-operand'>0</div>
+		<div data-current_operand class="current-operand">0</div>
+	</div>
+
+	<button data-all_clear onclick = "playAudio('click.mp3')" class = "span-two ac">AC</button>
+	<button data-delete onclick = "playAudio('click.mp3')" class= "del">DEL</button>
+	<button data-opr onclick = "playAudio('click.mp3')">÷</button>
+	<button data-num onclick = "playAudio('click.mp3')">1</button>
+	<button data-num onclick = "playAudio('click.mp3')">2</button>
+	<button data-num onclick = "playAudio('click.mp3')">3</button>
+	<button data-opr onclick = "playAudio('click.mp3')">*</button>
+	<button data-num onclick = "playAudio('click.mp3')">4</button>
+	<button data-num onclick = "playAudio('click.mp3')">5</button>
+	<button data-num onclick = "playAudio('click.mp3')">6</button>
+	<button data-opr onclick = "playAudio('click.mp3')">+</button>
+	<button data-num onclick = "playAudio('click.mp3')">7</button>
+	<button data-num onclick = "playAudio('click.mp3')">8</button>
+	<button data-num onclick = "playAudio('click.mp3')">9</button>
+	<button data-opr onclick = "playAudio('click.mp3')">-</button>
+	<button data-num onclick = "playAudio('click.mp3')">.</button>
+	<button data-num onclick = "playAudio('click.mp3')">0</button>
+
+	<button data-equals onclick = "playAudio('click.mp3')" class="span-two equals_to">=</button>
+
+</div>
+</div>
+
+
+<script src= "script/app.js"></script>
+</body>
+</html>
